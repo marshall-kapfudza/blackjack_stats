@@ -15,6 +15,19 @@ If the server startup was successful, your terminal will display a message sayin
 ## Endpoints
 To view the database's response detailing the aggregate win/loss record, point your browser to "http://localhost:3000/win/loss."
 
+### Example of how to REQUEST data:
+```
+const apiURL = 'http://localhost:4000/win/loss';
+
+const getBlackJackStats =  async () => {
+  const response = await fetch(apiURL);
+  if (response.ok) {
+    const data = await response.json();
+    console.log('Data: ', data);
+  }
+}
+```
+
 ### Example of the response:
 ```
 [
@@ -33,3 +46,7 @@ To view the database's response detailing the aggregate win/loss record, point y
 ## UML sequence diagram
 
 ![plot](./UML_sequence-diagram.png)
+
+### More resources
+
+[![Watch the video](http://i3.ytimg.com/vi/PCAu6ujaMkM/hqdefault.jpg)](https://youtu.be/PCAu6ujaMkM)

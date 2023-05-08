@@ -12,7 +12,7 @@ let black_jack_stats = [
         title: "Loss",
         count: 86
     }
-]
+];
   
  
 // Display products data in an api
