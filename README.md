@@ -30,3 +30,6 @@ To view the database's response detailing the aggregate win/loss record, point y
     }
 ]
 ```
+## UML sequence diagram
+
+![plot](./UML_sequence-diagram.png)
