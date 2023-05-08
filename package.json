@@ -1,0 +1,25 @@
+{
+  "name": "blackjack_stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "blackjack-stats-service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marshall-kapfudza/blackjack_stats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marshall-kapfudza/blackjack_stats/issues"
+  },
+  "homepage": "https://github.com/marshall-kapfudza/blackjack_stats#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9",
+    "node-watch": "^0.7.3",
+    "nodemon": "^2.0.22"
+  }
+}
